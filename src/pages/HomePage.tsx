@@ -171,6 +171,9 @@ export default function HomePage() {
         </Flex>
       </Box>
 
+
+
+      
       {/* Typing effect for introducing blocks */}
       <div className="dd">
         <Typical
@@ -180,27 +183,19 @@ export default function HomePage() {
             'Hi ! hello my name is Kelvin', 2500,
             'Contact me for Social Management.', 2500,
             'andddd Virtual Services', 2500,
+            'Rate Card: 6$/hour', 2500,
           ]}
         />
+         
       </div>
+
+     
 
       {/* Render Stepper component and pass onComplete */}
       <Stepper onComplete={handleComplete} />
+    
 
-      {/* Button to navigate to Dashboard */}
-      <Button
-        onClick={goToDashboard} // Navigate to Dashboard on click
-        style={{
-          marginTop: '20px',
-          color: 'white',
-          backgroundColor: 'green',
-          display: 'block',
-          marginLeft: 'auto',
-          marginRight: 'auto',
-        }}
-      >
-        Go to Dashboard
-      </Button>
+      <p> RATE CARD: 6$/Hour</p>
 
       {/* Country selection modal */}
       <Modal opened={modalOpened} onClose={() => setModalOpened(false)} title="Select a Country">
