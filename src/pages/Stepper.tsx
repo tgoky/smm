@@ -121,7 +121,9 @@ export default function Stepper({ onComplete }: StepperFormProps) {
               <Text size="sm" color="white" mb="md">
                 Email: gradelearninginteractive@gmail.com
               </Text>
-
+              <Text size="sm" color="white" mb="md">
+                Rate Card: 6$/hour
+              </Text>
               <Flex justify="space-between" mt="lg">
                 <Button
                   onClick={previousStep}
